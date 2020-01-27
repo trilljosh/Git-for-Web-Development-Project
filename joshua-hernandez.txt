@@ -1,0 +1,100 @@
+https://codepen.io/trilljosh/pen/qBEQOeO?editors=1100
+
+
+
+    1. What is Semantic HTML? 
+        // Elements with meaning providing structure. 
+    2. What is HTML used for?
+        // To write markup code for a browser to render.   
+    3. What is an attribute and where do we put it? 
+        //  Attributes provide more information about an element. We place them inside the opening element tag, after the element.        
+    4. What is the h1 tag used for? How many times should I use it on a page?
+        // Used for define a header tag to the content. Should only use them once if possible.  
+    5. Name two tags that have required attributes
+        // <a> tags require the href attribute and the <img> element requires the src attribute. 
+    6. What do we put in the head of our HTML document? 
+        // The title of the webpage. 
+    7. What is an id? 
+        // an attribute that specifies a unique id for a specific element. 
+    8. What elements can I add an id to? 
+        // All elements 
+    9. How many times can I use the same id on a page? 
+        // Only once. 
+    10. What is a class? 
+        // An attribute that specifies one or more class names for an element. 
+    11. What elements can I add a class to? 
+        // Any element 
+    12. How many times can I use the same class on a page? 
+        // As many times as you need. 
+    13. How do I get my link to open in a new tab?
+        // By using the target attribute and setting its value to "_blank"
+    14. What is the alt attribute used for? 
+        // Used as an alternative text for images, if the images cannot be displayed. 
+    15. How do I reference an id?
+        // with the # selector in css. 
+    16. What is the difference between a section and a div
+        // section tags group together relative information while divs do not convey any specific meaning. 
+    17. What is CSS used for? 
+        // To add presentation to a webpage. 
+    18. How to we select an element? Example - every h2 on the page
+        // h2{
+
+        }
+    19. What is the difference between a class and an id? - Give me an example of when I might use each one
+     // classes are meant to modify grouped elements while an id is used to modify one specific element. 
+        for example, if you want muliple elements to share the same style then you would use the class attribute.
+        if you want to style a single element then you would use the id attribute. 
+    20. How do we select classes in CSS?
+        // with the "." selector 
+    21. How do we select a p element with a single class of “human””?
+        // .human{
+
+        }
+    22. What is a parent child selector? When would this be useful? 
+        // This selector allows you to select and style a specific child element inside of its parent element. 
+           this would be useful when trying to select elements with a specific parent.
+    23. How do you select all links within a div with the class of sidebar?
+        // .sidebar a{
+
+        }
+    24. What is a pseudo selector?
+         // a selector that defines a special state of an element. 
+    25. What do we use the change the spacing between lines?
+        // line-height property. 
+    26. What do we use to change the spacing between letters?
+        // letter-spacing property 
+    27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+        // text-transform property 
+    28. How do I add a 1px border around my div that is dotted and black?
+        // div{
+            border: 1px dotted black;
+        }
+    29. How do I select everything on the page? 
+        // *{
+
+        }
+    30. How do I write a comment in CSS?
+        // write comments in css like so: /* message here */ 
+    31. How do I find out what file I am in, when I am using the command line? 
+        // git status 
+    32. Using the command line - how do I see a list of files/folders in my current folder?
+        // use the ls command to see the list of files. 
+    33. How do I remove a file via the command line? Why do I have to be careful with this? 
+        // use the rm command to remove files. we have to be careful with this because the 
+        terminal will permanently delete the files with no warning. 
+    34. Why should I use version control? 
+        // version control allows us to track every modification made to a file and allows us to work on a project at the same time as other developers. 
+    35. How often should I commit to github?
+        // as soon as you are ready to save a file after making changes. 
+    36. What is the command we would use to push our repo up to github? 
+        // git push <repo-name> <branch-name>
+    37. Walk me through Lambda's git flow. 
+        // first we need to fork the project from github. After that, we need to copy
+         all the files from github into our git program by using the git clone command. 
+         once the files have been cloned to git, we need to add the files to be tracked 
+         by git by using the git add command. Then we commit our code by using the git 
+         commit -m "" command. This will save a specific point within your file. Laslty 
+         we need to push these changes into our remote repository, such as github. We 
+         use the git push command to do this. Lastly, we use a pull request to merge 
+         our changes to the  origin master branch.  
+    
